@@ -13,4 +13,11 @@ public class User {
     private final String username;
     private String firstName;
     private String lastName;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                '}';
+    }
 }
